@@ -8,12 +8,22 @@ import { Alphabet } from './../src/template.js'
       expect(alphabet1.letter).toEqual(letter)
     })
 
-    it('should pass the userinput through letter', function() {
+    it('expect pass/ userinput through letter', function() {
       let letter = "a";
       var alphabet1 = new Alphabet(letter);
       console.log(alphabet1);
       alphabet1.naMes();
       expect(alphabet1.letter).toEqual("a")
     })
+
+    it('expect pass/ should check length of letter', function() {
+       let letter = "this ia a test sentence";
+       var alphabet1 = new Alphabet(letter);
+       var newSentence = alphabet1.length;
+       alphabet1.naMes();
+         expect(alphabet1.newSentence).toEqual(newSentence);
+
+    })
+
 
   })
