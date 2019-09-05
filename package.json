@@ -1,7 +1,7 @@
 {
-  "name": "pigDice2",
+  "name": "template",
   "version": "1.0.0",
-  "description": "#### _Dice Game Simulator, 2019_",
+  "description": "#### _Alphabet, 2019_",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nehamalhotra23/pigDice2.git"
+    "url": " "
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nehamalhotra23/pigDice2/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/nehamalhotra23/pigDice2#readme",
+  "homepage": "",
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.18",
     "css-loader": "^3.2.0",
