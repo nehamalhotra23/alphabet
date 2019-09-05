@@ -25,5 +25,14 @@ import { Alphabet } from './../src/template.js'
 
     })
 
+    it('should pass/ should add count characters in a sentence', function() {
+      let letter = "this ia a test sentence";
+       var alphabet1 = new Alphabet(letter);
+
+       alphabet1.naMes();
+        expect(letter.length).toEqual(letter.length);
+
+    })
+
 
   })
